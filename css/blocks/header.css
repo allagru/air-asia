@@ -1,0 +1,75 @@
+.header {
+    padding-top: 26px;
+    margin-bottom: 125px;
+    height: 70px;
+}
+
+.container {
+    position: relative;
+}
+
+.logo, .menu, .menu__item {
+    display: inline-block;
+}
+
+.logo, .menu, .contacts {
+    position: absolute;
+}
+
+.logo {
+    margin-right: 79px;
+    left: 0;
+}
+
+.menu {
+    left: 164px;
+}
+
+.menu__item {
+    margin-right: 50px;
+}
+
+.menu__link {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #DA0100;
+}
+
+.menu__list {
+    margin-top: 13px;
+}
+
+.menu__list :last-child { 
+    margin-right: 0;
+}
+
+.contacts {
+    right: 0;
+    margin-top: 7px;
+    text-align: right;
+}
+
+.contacts__phone {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.contacts__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 13px;
+    text-decoration: underline;
+    display: block;
+    margin-right: 3px;
+}

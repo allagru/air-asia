@@ -1,0 +1,22 @@
+.tours .container {
+    width: 511px; 
+    margin-left: 189px;
+}
+
+.tours__title {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+}
+
+.tours__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    margin-top: 27px;
+    margin-bottom: 30px;
+}
+
+.tours {
+    margin-bottom: 245px;
+}
