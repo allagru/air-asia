@@ -71,6 +71,11 @@
     color: #F5170E;
 }
 
+.paginator__link:hover {
+    background: #fff;
+    color: #F5170E;
+}
+
 .paginator__link {
     font-weight: bold;
     text-decoration: none;
