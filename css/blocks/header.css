@@ -1,11 +1,7 @@
 .header {
-    padding-top: 26px;
-    margin-bottom: 125px;
+    padding-top: 28px;
+    margin-bottom: 126px;
     height: 70px;
-}
-
-.container {
-    position: relative;
 }
 
 .logo, .menu, .menu__item {

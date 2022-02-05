@@ -1,0 +1,58 @@
+.about__decor {
+    position: absolute;
+    display: block;
+    left: 0;
+    z-index: 1;
+    height: 505px;
+}
+
+.about__decor-img {
+    width: 490px;
+    max-height: 505px;
+}
+
+.about__content {
+    display: block;
+    position: relative;
+    z-index: 3;
+    right: 0;
+    left: 357px;
+    top: 96px;
+}
+
+.about__img {
+    right: 0;
+    position: relative;
+    right: 3px;
+    z-index: 2;
+}
+
+.about {
+    margin-bottom: 148px;
+    min-height: 150px;
+}
+
+.title--dark {
+    color: #000;
+    position: absolute;
+    z-index: 6;
+    left: 76px;
+    top: 69px;
+}
+
+.about__text {
+    color: #060606;
+    position: absolute;
+    z-index: 6;
+    left: 76px;
+    top: 144px;
+    width: 501px;
+    line-height: 1.6;
+}
+
+.button--about {
+    position: absolute;
+    z-index: 6;
+    left: 76px;
+    top: 335px;
+}

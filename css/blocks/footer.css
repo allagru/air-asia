@@ -1,0 +1,80 @@
+.social__item {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.footer {
+    height: 152px;
+    position: relative;
+}
+
+.social__list {
+    position: absolute;
+    right: 267px;
+    top: 6px;
+}
+
+.social__link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+
+}
+
+.social__item:last-child {
+    margin-right: 0;
+}
+
+.contacts__text--footer {
+    font-size: 11px;
+    text-decoration: none;
+    margin-bottom: 4px;
+    color: #9A9A9A;
+}
+
+.social__item--icon--telegr .social__link {
+    background: url("/air-asia/img/telegram.png");
+}
+
+
+.social__item--icon--telegr .social__link:hover {
+    background-image: url(/air-asia/img/t.png);
+}
+
+.social__item--icon--vk .social__link {
+    background: url("/air-asia/img/vk.png");
+}
+
+
+.social__item--icon--vk .social__link:hover {
+    background-image: url(/air-asia/img/vkhov.png);
+}
+
+.social__item--icon--fb .social__link {
+    background: url("/air-asia/img/f.png");
+}
+
+
+.social__item--icon--fb .social__link:hover {
+    background-image: url(/air-asia/img/fhov.png);
+}
+
+.social__item--icon--instagram .social__link {
+    background: url("/air-asia/img/in.png");
+}
+
+
+.social__item--icon--instagram .social__link:hover {
+    background-image: url(/air-asia/img/inhov.png);
+}
+
+.footer-container__content {
+    border-top: 1px solid #353538;
+    padding-top: 45px;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    max-width: 1141px;
+}
+
