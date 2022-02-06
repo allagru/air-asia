@@ -14,10 +14,6 @@
     border-radius: 4px;
 }
 
-.offers__img {
-    margin-bottom: 28px;
-}
-
 .offers__title {
     font-size: 24px;
     font-weight: bold;
@@ -25,7 +21,7 @@
 }
 
 .offers__content {
-    margin-left: 22px;
+    padding: 24px;
 }
 
 .offers__features {
@@ -40,6 +36,7 @@
 .offers__feature {
     display: inline-block;
     vertical-align: top;
+    margin-right: 26px;
 }
 
 .offers__feature-img, .offers__feature-text {
@@ -59,7 +56,6 @@
 
 .offers__feature-text {
     color: #666;
-    margin-right: 26px;
     vertical-align: top;
 }
 

@@ -4,8 +4,11 @@
 }
 
 .news__list {
-    margin-top: 50px;
     margin-bottom: 53px;
+}
+
+.news__title-main {
+    margin-bottom: 50px;
 }
 
 .news__item {
@@ -67,6 +70,11 @@
 }
 
 .paginator__item--active .paginator__link {
+    background: #fff;
+    color: #F5170E;
+}
+
+.paginator__link:hover {
     background: #fff;
     color: #F5170E;
 }

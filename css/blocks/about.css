@@ -12,12 +12,16 @@
 }
 
 .about__content {
-    display: block;
     position: relative;
     z-index: 3;
-    right: 0;
-    left: 357px;
-    top: 96px;
+    width: 785px;
+    margin-left: auto;
+    padding: 70px 203px 66px 81px;
+    background: url(/air-asia/img/mountains.png) center center / cover no-repeat;
+}
+
+.about__container {
+    padding-top: 97px;
 }
 
 .about__img {
@@ -28,31 +32,23 @@
 }
 
 .about {
-    margin-bottom: 148px;
+    margin-bottom: 54px;
     min-height: 150px;
 }
 
 .title--dark {
     color: #000;
-    position: absolute;
     z-index: 6;
-    left: 76px;
-    top: 69px;
+    margin-bottom: 39px;
 }
 
 .about__text {
     color: #060606;
-    position: absolute;
     z-index: 6;
-    left: 76px;
-    top: 144px;
-    width: 501px;
+    margin-bottom: 47px;
     line-height: 1.6;
 }
 
 .button--about {
-    position: absolute;
     z-index: 6;
-    left: 76px;
-    top: 335px;
 }

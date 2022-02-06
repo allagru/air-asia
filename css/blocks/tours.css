@@ -1,27 +1,17 @@
-.tours .container {
-    width: 511px; 
-    height: 100%;
-    margin-left: 189px;
-    display: inline-block;
-}
-
-.tours__title, .tours__text {
-    position: absolute;
+.tours__content {
+    width: 511px;
 }
 
 .tours__title {
     font-weight: bold;
     font-size: 72px;
+    margin-bottom: 28px;
 }
 
 .tours__text {
     font-weight: normal;
     font-size: 18px;
-    top: 222px;
-}
-
-.tours--button {
-    margin-top: 278px;
+    margin-bottom: 31px;
 }
 
 .tours {
