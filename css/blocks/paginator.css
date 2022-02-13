@@ -1,0 +1,13 @@
+.paginator--theme--dark .paginator__link {
+    color: #000000;
+}
+
+.paginator--theme--dark .paginator__item--active .paginator__link {
+    color: #FFFFFF;
+    background: #F5170E;
+}
+
+.paginator--theme--dark .paginator__link:hover {
+    color: #FFFFFF;
+    background: #F5170E;
+}

@@ -43,6 +43,10 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     min-height: 100%;
     background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 1200px;
 }
 
 .main-page-wrapper {
@@ -74,19 +78,12 @@ h1, h2, h3, h4, h5, h6 {
     background: #da0100;
 }
 
-.title--fire {
-    position: relative;
-}
-
 .title--fire:after {
     content: "";
     background: url(/air-asia/img/flame.png);
-    margin-left: 26px;
+    margin-left: 16px;
     width: 21px;
     height: 28px;
-    position: absolute;
-    top: 54%; 
-    transform:translate(-50%, -50%); 
 }
 
 .button--light {

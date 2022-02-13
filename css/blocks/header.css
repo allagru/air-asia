@@ -1,28 +1,41 @@
 .header {
     padding-top: 28px;
-    margin-bottom: 126px;
-    height: 70px;
+    margin-bottom: 30px;   
 }
 
-.logo, .menu, .menu__item {
-    display: inline-block;
+.hero__container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    min-height: 527px;
 }
 
-.logo, .menu, .contacts {
-    position: absolute;
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+}
+
+.header__col--align--right {
+    justify-content: flex-end;
+}
+
+.menu__list {
+    display: flex;
 }
 
 .logo {
+    display: block;
     margin-right: 79px;
-    left: 0;
-}
-
-.menu {
-    left: 164px;
 }
 
 .menu__item {
-    margin-right: 50px;
+    margin-right: 55px;
 }
 
 .menu__link {
@@ -37,8 +50,8 @@
     color: #DA0100;
 }
 
-.menu__list {
-    margin-top: 13px;
+.menu__link--active {
+    color: #DA0100;
 }
 
 .menu__list :last-child { 
@@ -46,8 +59,6 @@
 }
 
 .contacts {
-    right: 0;
-    margin-top: 7px;
     text-align: right;
 }
 
@@ -55,7 +66,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 26px;
-    line-height: 20px;
+    line-height: 28px;
     color: #fff;
     text-decoration: none;
 }
@@ -64,7 +75,47 @@
     font-style: normal;
     font-weight: normal;
     font-size: 13px;
-    line-height: 13px;
+    line-height: 1.3;
     text-decoration: underline;
     margin-right: 3px;
+}
+
+.contacts__text--header {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.contacts__schedule {
+    position: relative;
+}
+
+/* .contacts__schedule:hover .contacts__dropdown {
+    right: 0;
+    left: inherit;
+    opacity: 1;
+} */
+
+.contacts__dropdown {
+    position: absolute;
+    top: 130%;
+    background: #EDEDED;
+    color: #1E1F20;
+    padding: 10px;
+    opacity: 0;
+    left: -9999px;
+}
+
+.contacts__dropdown::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 0;
+    top: -20px;
+}
+
+.header__logo__img {
+    width: 98px;
+    margin-right: 66px;
 }
