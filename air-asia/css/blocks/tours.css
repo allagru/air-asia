@@ -1,0 +1,20 @@
+.tours__content {
+    width: 50%;
+}
+
+.tours__title {
+    font-weight: bold;
+    font-size: 72px;
+    margin-bottom: 28px;
+    line-height: 1.4;
+}
+
+.tours__text {
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 31px;
+}
+
+.main-content {
+    margin-top: 251px;
+}

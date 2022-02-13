@@ -1,0 +1,50 @@
+.header-services {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0;
+}
+
+.page-content {
+    background: #FFFFFF;
+    color: #303030;
+    padding: 98px 0 84px 0;
+}
+
+.service {
+    display: flex;
+}
+
+.service__img {
+    width: 41%;
+    margin-right: 4%;
+    flex-shrink: 0;
+}
+
+.service__content {
+    flex: 1;
+}
+
+.service__title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 15px;
+    margin-bottom: 37px;
+}
+
+.service__desc {
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+
+.service__button {
+    padding: 18px 40px;
+}
+
+.services__item {
+    margin-bottom: 4%;
+}
+
+.services {
+    margin-bottom: 65px;
+}
