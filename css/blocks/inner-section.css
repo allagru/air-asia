@@ -43,3 +43,11 @@
 .partners__item:nth-child(4n+4) .partners__link {
     justify-content: flex-end;
 }
+
+.inner-section__reviews {
+    padding: 69px 0 96px 0;
+}
+
+.inner-section__title--reviews {
+    margin-bottom: 64px;
+}

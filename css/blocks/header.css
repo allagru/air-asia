@@ -23,6 +23,7 @@
 
 .header__col--align--right {
     justify-content: flex-end;
+
 }
 
 .menu__list {
@@ -44,10 +45,12 @@
     font-size: 14px;
     color: #fff;
     text-decoration: none;
+    transition: .3s;
 }
 
 .menu__link:hover {
     color: #DA0100;
+    
 }
 
 .menu__link--active {
@@ -87,25 +90,44 @@
 
 .contacts__schedule {
     position: relative;
+    min-width: 10px;
+
+
 }
 
-/* .contacts__schedule:hover .contacts__dropdown {
+.contacts__schedule:hover .contacts__dropdown {
     right: 0;
     left: inherit;
     opacity: 1;
-} */
+}
 
 .contacts__dropdown {
     position: absolute;
     top: 130%;
     background: #EDEDED;
     color: #1E1F20;
-    padding: 10px;
+    padding: 14px 17px 17px 17px;
     opacity: 0;
     left: -9999px;
+    text-align: left;
+    border-radius: 5px;
+    line-height: 20px;
+    transition: .3s;
 }
 
 .contacts__dropdown::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: 40px;
+    width: 20px;
+    height: 20px;
+    background: #EDEDED;
+    transform: rotate(45deg);
+
+}
+
+.contacts__dropdown::after {
     content: '';
     display: block;
     position: absolute;
@@ -113,9 +135,26 @@
     height: 30px;
     left: 0;
     top: -20px;
+
+}
+
+.contacts__item {
+    color: #1E1F20;
+    font-size: 13px;
+    font-style: normal;
+}
+
+.contacts__item--bold {
+    font-weight: bold;
 }
 
 .header__logo__img {
     width: 98px;
     margin-right: 66px;
+}
+
+.header-reviews {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -29px;
 }

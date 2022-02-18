@@ -79,6 +79,7 @@
 .paginator__link:hover {
     background: #fff;
     color: #F5170E;
+    transition: .3s;
 }
 
 .paginator__link {
@@ -90,6 +91,7 @@
     height: 32px;
     border-radius: 50%;
     line-height: 32px;
+    transition: .3s;
 }
 
 .news {

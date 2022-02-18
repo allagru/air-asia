@@ -23,6 +23,10 @@ button {
     box-sizing: border-box;
 }
 
+p {
+    margin: 0;
+}
+
 ul {
     padding: 0;
     margin: 0;
@@ -76,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .button:hover {
     background: #da0100;
+    transition: .3s;
 }
 
 .title--fire:after {
@@ -98,4 +103,15 @@ h1, h2, h3, h4, h5, h6 {
 .button--light:hover {
     background: #f5170e;
     color: #fff;
+    transition: .3s;
 }
+
+.button--dark {
+    background: #2B2B2B;
+}
+
+.button--dark:hover {
+    background: #8E8E8E;
+    transition: .3s;
+}
+

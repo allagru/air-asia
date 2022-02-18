@@ -49,7 +49,7 @@
     margin-bottom: 47px;
     line-height: 1.6;
     max-height: 171px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 .button--about {
