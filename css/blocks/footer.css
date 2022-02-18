@@ -1,4 +1,6 @@
 .social__item {
+    display: inline-block;
+    vertical-align: middle;
     margin-right: 11px;
 }
 
@@ -30,6 +32,7 @@
     height: 36px;
     background: center center no-repeat;
     transition: .3s;
+    position: relative;
 
 }
 
@@ -43,7 +46,7 @@
     margin-bottom: 4px;
     color: #9A9A9A;
 }
-/* 
+
 .social__link::before, .social__link::after { 
     content: '';
     display: block;
@@ -100,9 +103,9 @@
 
 .social__link--instagram::after {
     background-position: -66px -66px; 
-} */
+} 
 
-.social__item--icon--telegr .social__link {
+/* .social__item--icon--telegr .social__link {
     background: url("/air-asia/img/telegram.png");
 }
 
@@ -137,7 +140,7 @@
 
 .social__item--icon--instagram .social__link:hover {
     background-image: url(/air-asia/img/inhov.png);
-} 
+}  */
 
 .footer-container__content {
     border-top: 1px solid #353538;
